@@ -1,0 +1,1380 @@
+{
+  "version": 2,
+  "field_selectors": {
+    "email": [
+      "input[placeholder*=\"Email address\" i]",
+      "input[placeholder*=\"mobile number\" i]",
+      "input[type=\"email\"]",
+      "input[name*=\"email\" i]",
+      "input[placeholder*=\"email\" i]",
+      "input[id*=\"email\" i]",
+      "#login-account-email"
+    ],
+    "password": [
+      "input[placeholder=\"Enter password\"]",
+      "input[placeholder*=\"Enter password\" i]",
+      "input[type=\"password\"]",
+      "input[name*=\"password\" i]",
+      "input[placeholder*=\"password\" i]",
+      "input[id*=\"password\" i]"
+    ],
+    "username": [
+      "input[name*=\"username\" i]",
+      "input[id*=\"username\" i]",
+      "input[placeholder*=\"username\" i]",
+      "input[autocomplete=\"username\"]"
+    ],
+    "to": [
+      "input[aria-label*=\"To\" i]",
+      "input[aria-label=\"To\"]",
+      "input[id*=\"ZohoMail_To\" i]",
+      "div[id*=\"compose\"] input[aria-label*=\"To\" i]",
+      "div[class*=\"compose\"] input[aria-label*=\"To\" i]",
+      "input[placeholder*=\"Recipients\" i]",
+      "input[name=\"to\"]",
+      "input[placeholder*=\"to\" i]",
+      ".zc-cnt-cmt input",
+      "input[id*=\"to\" i]"
+    ],
+    "subject": [
+      "input[placeholder*=\"subject\" i]",
+      "input[id*=\"subject\" i]",
+      "input[name*=\"subject\" i]",
+      "input[aria-label*=\"subject\" i]",
+      "div[id*=\"compose\"] input[type=\"text\"]",
+      "div[class*=\"compose\"] input[type=\"text\"]:not([aria-label*=\"To\" i])",
+      ".editor-subject input",
+      "#subject"
+    ],
+    "body": [
+      "div[contenteditable=\"true\"]",
+      "div[contenteditable=\"true\"][aria-label*=\"message\" i]",
+      "div[contenteditable=\"true\"][aria-label*=\"body\" i]",
+      ".mail-editor div[contenteditable]",
+      "#zel_editor",
+      "textarea[name*=\"body\"]"
+    ],
+    "search": [
+      "input[type=\"search\"]",
+      "input[placeholder*=\"search\" i]",
+      "input[aria-label*=\"search\" i]",
+      "input[name*=\"search\" i]",
+      "input[id*=\"search\" i]"
+    ],
+    "phone": [
+      "input[type=\"tel\"]",
+      "input[name*=\"phone\" i]",
+      "input[placeholder*=\"phone\" i]",
+      "input[id*=\"phone\" i]"
+    ],
+    "name": [
+      "input[name=\"name\"]",
+      "input[placeholder*=\"name\" i]",
+      "input[id*=\"name\" i]",
+      "input[autocomplete*=\"name\"]"
+    ],
+    "first name": [
+      "input[name*=\"firstname\" i]",
+      "input[name=\"first_name\"]",
+      "input[placeholder*=\"first name\" i]",
+      "input[id*=\"firstname\" i]"
+    ],
+    "last name": [
+      "input[name*=\"lastname\" i]",
+      "input[name=\"last_name\"]",
+      "input[placeholder*=\"last name\" i]",
+      "input[id*=\"lastname\" i]"
+    ]
+  },
+  "placeholder_map": {
+    "email address or mobile number": "email",
+    "email address": "email",
+    "mobile number": "email",
+    "enter password": "password",
+    "password": "password",
+    "enter email": "email",
+    "your email": "email",
+    "user name": "username"
+  },
+  "button_selectors": {
+    "new mail": [
+      "[data-testid=\"new-btn-opt\"]",
+      "div[id*=\"compose_btn\" i]",
+      "button[title*=\"New Mail\" i]",
+      "span[title*=\"New Mail\" i]",
+      "[aria-label*=\"New Mail\" i]",
+      "div[class*=\"compose\"][role=\"button\"]",
+      "td[id*=\"newmail\" i]"
+    ],
+    "send": [
+      "[aria-label=\"Send\"]",
+      "button[title*=\"Send\" i]",
+      "[aria-label*=\"Send\" i]",
+      "span[title*=\"Send\" i]",
+      "div[id*=\"send_btn\" i]",
+      "li[id*=\"sendbutton\" i]"
+    ],
+    "my profile": [
+      "#currentUserInfo",
+      "div[id*=\"userinfo\" i]",
+      "div[class*=\"userinfo\" i]",
+      "span[id*=\"userDisplayName\" i]",
+      "[aria-label*=\"profile\" i]",
+      "img[class*=\"avatar\" i]",
+      "div[class*=\"avatar\" i]"
+    ],
+    "sign out": [
+      "[aria-label=\"Close the user profile panel\"]",
+      "a[href*=\"signout\" i]",
+      "a[href*=\"logout\" i]",
+      "[id*=\"signout\" i]",
+      "li[title*=\"Sign Out\" i]",
+      "[aria-label*=\"Sign Out\" i]"
+    ],
+    "next": [
+      "[id=\"nextbtn\"]"
+    ],
+    "sign in": [
+      "[id=\"nextbtn\"]"
+    ]
+  },
+  "sso_trap_domains": [
+    "accounts.google.com",
+    "login.microsoftonline.com",
+    "appleid.apple.com",
+    "www.facebook.com/login",
+    "linkedin.com/oauth",
+    "twitter.com/i/oauth"
+  ],
+  "direct_login_urls": {
+    "zoho.com/mail": "https://accounts.zoho.in/signin?servicename=VirtualOffice&signupurl=https://www.zoho.com/mail/signup.html&serviceurl=https://mail.zoho.in",
+    "zoho.com": "https://accounts.zoho.in/signin"
+  },
+  "native_signin_selectors": [
+    "a[href*=\"zoho\"][href*=\"signin\"]:not([href*=\"google\"]):not([href*=\"facebook\"])",
+    "a[href*=\"accounts.zoho\"]",
+    "a.login-with-email",
+    "[data-provider=\"native\"]"
+  ],
+  "selector_stats": {
+    "input[placeholder*=\"Email address\" i]": {
+      "hits": 2,
+      "misses": 0,
+      "last_seen": "2026-03-26T04:14:56Z"
+    },
+    "input[placeholder=\"Enter password\"]": {
+      "hits": 2,
+      "misses": 0,
+      "last_seen": "2026-03-26T04:15:00Z"
+    },
+    "div[id*=\"compose_btn\" i]": {
+      "hits": 0,
+      "misses": 1,
+      "last_seen": ""
+    },
+    "button[title*=\"New Mail\" i]": {
+      "hits": 0,
+      "misses": 1,
+      "last_seen": ""
+    },
+    "span[title*=\"New Mail\" i]": {
+      "hits": 0,
+      "misses": 1,
+      "last_seen": ""
+    },
+    "[aria-label*=\"New Mail\" i]": {
+      "hits": 0,
+      "misses": 1,
+      "last_seen": ""
+    },
+    "div[class*=\"compose\"][role=\"button\"]": {
+      "hits": 0,
+      "misses": 1,
+      "last_seen": ""
+    },
+    "td[id*=\"newmail\" i]": {
+      "hits": 0,
+      "misses": 1,
+      "last_seen": ""
+    },
+    "input[aria-label=\"To\"]": {
+      "hits": 0,
+      "misses": 1,
+      "last_seen": ""
+    },
+    "input[aria-label*=\"To\" i]": {
+      "hits": 2,
+      "misses": 0,
+      "last_seen": "2026-03-26T04:15:30Z"
+    },
+    "input[id*=\"subject\" i]": {
+      "hits": 0,
+      "misses": 1,
+      "last_seen": ""
+    },
+    "input[name*=\"subject\" i]": {
+      "hits": 0,
+      "misses": 1,
+      "last_seen": ""
+    },
+    "input[placeholder*=\"subject\" i]": {
+      "hits": 2,
+      "misses": 0,
+      "last_seen": "2026-03-26T04:15:37Z"
+    },
+    "button[title*=\"Send\" i]": {
+      "hits": 0,
+      "misses": 1,
+      "last_seen": ""
+    },
+    "[aria-label*=\"Send\" i]": {
+      "hits": 0,
+      "misses": 1,
+      "last_seen": ""
+    },
+    "span[title*=\"Send\" i]": {
+      "hits": 0,
+      "misses": 1,
+      "last_seen": ""
+    },
+    "div[id*=\"send_btn\" i]": {
+      "hits": 0,
+      "misses": 1,
+      "last_seen": ""
+    },
+    "li[id*=\"sendbutton\" i]": {
+      "hits": 0,
+      "misses": 1,
+      "last_seen": ""
+    },
+    "#currentUserInfo": {
+      "hits": 0,
+      "misses": 2,
+      "last_seen": ""
+    },
+    "div[id*=\"userinfo\" i]": {
+      "hits": 0,
+      "misses": 2,
+      "last_seen": ""
+    },
+    "div[class*=\"userinfo\" i]": {
+      "hits": 2,
+      "misses": 0,
+      "last_seen": "2026-03-26T04:15:45Z"
+    },
+    "a[href*=\"signout\" i]": {
+      "hits": 0,
+      "misses": 1,
+      "last_seen": ""
+    },
+    "a[href*=\"logout\" i]": {
+      "hits": 0,
+      "misses": 1,
+      "last_seen": ""
+    },
+    "[id*=\"signout\" i]": {
+      "hits": 0,
+      "misses": 1,
+      "last_seen": ""
+    },
+    "li[title*=\"Sign Out\" i]": {
+      "hits": 0,
+      "misses": 1,
+      "last_seen": ""
+    },
+    "[aria-label*=\"Sign Out\" i]": {
+      "hits": 0,
+      "misses": 1,
+      "last_seen": ""
+    },
+    "[id=\"nextbtn\"]": {
+      "hits": 2,
+      "misses": 0,
+      "last_seen": "2026-03-26T04:15:03Z"
+    },
+    "[data-testid=\"new-btn-opt\"]": {
+      "hits": 1,
+      "misses": 0,
+      "last_seen": "2026-03-26T04:15:24Z"
+    },
+    "[aria-label=\"Send\"]": {
+      "hits": 1,
+      "misses": 0,
+      "last_seen": "2026-03-26T04:15:43Z"
+    },
+    "[aria-label=\"Close the user profile panel\"]": {
+      "hits": 1,
+      "misses": 0,
+      "last_seen": "2026-03-26T04:15:47Z"
+    }
+  },
+  "dom_snapshots": {
+    "2026-03-26T04-11-37Z/step_13_navigate": {
+      "url": "https://accounts.zoho.in/signin?servicename=VirtualOffice&signupurl=https://www.zoho.com/mail/signup.html&serviceurl=https://mail.zoho.in",
+      "title": "Zoho Accounts",
+      "inputs": [
+        {
+          "tag": "input",
+          "type": "text",
+          "id": "login_id",
+          "name": "LOGIN_ID",
+          "placeholder": "Email address or mobile number",
+          "aria_label": "",
+          "label": "",
+          "visible": true
+        },
+        {
+          "tag": "input",
+          "type": "password",
+          "id": "password",
+          "name": "PASSWORD",
+          "placeholder": "Enter password",
+          "aria_label": "",
+          "label": "",
+          "visible": true
+        }
+      ],
+      "buttons": [
+        "Zoho Corporation Pvt. Ltd."
+      ],
+      "recorded_at": "2026-03-26T04:11:43Z"
+    },
+    "2026-03-26T04-11-37Z/step_16_fill": {
+      "url": "https://accounts.zoho.in/signin?servicename=VirtualOffice&signupurl=https://www.zoho.com/mail/signup.html&serviceurl=https://mail.zoho.in",
+      "title": "Zoho Accounts",
+      "inputs": [
+        {
+          "tag": "input",
+          "type": "text",
+          "id": "login_id",
+          "name": "LOGIN_ID",
+          "placeholder": "Email address or mobile number",
+          "aria_label": "",
+          "label": "",
+          "visible": true
+        },
+        {
+          "tag": "input",
+          "type": "password",
+          "id": "password",
+          "name": "PASSWORD",
+          "placeholder": "Enter password",
+          "aria_label": "",
+          "label": "",
+          "visible": true
+        }
+      ],
+      "buttons": [
+        "Next",
+        "Learn more",
+        "Zoho Corporation Pvt. Ltd."
+      ],
+      "recorded_at": "2026-03-26T04:11:46Z"
+    },
+    "2026-03-26T04-11-37Z/step_17_click": {
+      "url": "https://accounts.zoho.in/signin?servicename=VirtualOffice&signupurl=https://www.zoho.com/mail/signup.html&serviceurl=https://mail.zoho.in",
+      "title": "Zoho Accounts",
+      "inputs": [
+        {
+          "tag": "input",
+          "type": "password",
+          "id": "password",
+          "name": "PASSWORD",
+          "placeholder": "Enter password",
+          "aria_label": "",
+          "label": "",
+          "visible": true
+        }
+      ],
+      "buttons": [
+        "Sign in",
+        "Learn more",
+        "Zoho Corporation Pvt. Ltd."
+      ],
+      "recorded_at": "2026-03-26T04:11:48Z"
+    },
+    "2026-03-26T04-11-37Z/step_19_fill": {
+      "url": "https://accounts.zoho.in/signin?servicename=VirtualOffice&signupurl=https://www.zoho.com/mail/signup.html&serviceurl=https://mail.zoho.in",
+      "title": "Zoho Accounts",
+      "inputs": [
+        {
+          "tag": "input",
+          "type": "password",
+          "id": "password",
+          "name": "PASSWORD",
+          "placeholder": "Enter password",
+          "aria_label": "",
+          "label": "",
+          "visible": true
+        }
+      ],
+      "buttons": [
+        "Sign in",
+        "Learn more",
+        "Zoho Corporation Pvt. Ltd."
+      ],
+      "recorded_at": "2026-03-26T04:11:50Z"
+    },
+    "2026-03-26T04-11-37Z/step_20_click": {
+      "url": "https://mail.zoho.in/zm/#mail/folder/inbox",
+      "title": "(2 unread) - Inbox - Zoho Mail (pathlock.qa@zohomail.in)",
+      "inputs": [],
+      "buttons": [
+        "Skip to main content",
+        "Mail",
+        "Calendar",
+        "ToDo",
+        "Notes",
+        "Contacts",
+        "Bookmarks",
+        "New Mail",
+        "Inbox",
+        "2 Unread emails",
+        "Views",
+        "Attachment options",
+        "2"
+      ],
+      "recorded_at": "2026-03-26T04:12:04Z"
+    },
+    "2026-03-26T04-11-37Z/step_22_wait": {
+      "url": "https://mail.zoho.in/zm/#mail/folder/inbox",
+      "title": "(2 unread) - Inbox - Zoho Mail (pathlock.qa@zohomail.in)",
+      "inputs": [],
+      "buttons": [
+        "Skip to main content",
+        "Mail",
+        "Calendar",
+        "ToDo",
+        "Notes",
+        "Contacts",
+        "Bookmarks",
+        "New Mail",
+        "Inbox",
+        "2 Unread emails",
+        "Views",
+        "Attachment options",
+        "2"
+      ],
+      "recorded_at": "2026-03-26T04:12:05Z"
+    },
+    "2026-03-26T04-11-37Z/step_24_click": {
+      "url": "https://mail.zoho.in/zm/#mail/folder/inbox",
+      "title": "(2 unread) - Inbox - Zoho Mail (pathlock.qa@zohomail.in)",
+      "inputs": [
+        {
+          "tag": "input",
+          "type": "text",
+          "id": "",
+          "name": "",
+          "placeholder": "Search ( / )",
+          "aria_label": "Search ( / )",
+          "label": "",
+          "visible": true
+        }
+      ],
+      "buttons": [
+        "Skip to main content",
+        "Mail",
+        "Calendar",
+        "ToDo",
+        "Notes",
+        "Contacts",
+        "Bookmarks",
+        "New Mail",
+        "Inbox",
+        "2 Unread emails",
+        "Views",
+        "Attachment options",
+        "2"
+      ],
+      "recorded_at": "2026-03-26T04:12:08Z"
+    },
+    "2026-03-26T04-11-37Z/step_25_fill": {
+      "url": "https://mail.zoho.in/zm/#compose",
+      "title": "New Mail - Zoho Mail (pathlock.qa@zohomail.in)",
+      "inputs": [
+        {
+          "tag": "input",
+          "type": "text",
+          "id": "",
+          "name": "",
+          "placeholder": "Search ( / )",
+          "aria_label": "Search ( / )",
+          "label": "",
+          "visible": true
+        },
+        {
+          "tag": "input",
+          "type": "text",
+          "id": "",
+          "name": "",
+          "placeholder": "",
+          "aria_label": "To Recipients",
+          "label": "",
+          "visible": true
+        },
+        {
+          "tag": "input",
+          "type": "text",
+          "id": "",
+          "name": "",
+          "placeholder": "",
+          "aria_label": "CC Recipients",
+          "label": "",
+          "visible": true
+        },
+        {
+          "tag": "input",
+          "type": "text",
+          "id": "input-_r_v_",
+          "name": "",
+          "placeholder": "Subject",
+          "aria_label": "",
+          "label": "",
+          "visible": true
+        },
+        {
+          "tag": "input",
+          "type": "text",
+          "id": "",
+          "name": "",
+          "placeholder": "",
+          "aria_label": "Font Size",
+          "label": "",
+          "visible": true
+        }
+      ],
+      "buttons": [
+        "Skip to main content",
+        "Mail",
+        "Calendar",
+        "ToDo",
+        "Notes",
+        "Contacts",
+        "Bookmarks",
+        "New Mail",
+        "Send",
+        "Send Later",
+        "Save draft",
+        "Share Draft",
+        "Ranjit Kolte <pathlock.qa@zohomail.in>",
+        "To",
+        "Bcc",
+        "Cc",
+        "Verdana"
+      ],
+      "recorded_at": "2026-03-26T04:12:15Z"
+    },
+    "2026-03-26T04-11-37Z/step_26_fill": {
+      "url": "https://mail.zoho.in/zm/#compose",
+      "title": "New Mail - Zoho Mail (pathlock.qa@zohomail.in)",
+      "inputs": [
+        {
+          "tag": "input",
+          "type": "text",
+          "id": "",
+          "name": "",
+          "placeholder": "Search ( / )",
+          "aria_label": "Search ( / )",
+          "label": "",
+          "visible": true
+        },
+        {
+          "tag": "input",
+          "type": "text",
+          "id": "",
+          "name": "",
+          "placeholder": "",
+          "aria_label": "To Recipients",
+          "label": "",
+          "visible": true
+        },
+        {
+          "tag": "input",
+          "type": "text",
+          "id": "",
+          "name": "",
+          "placeholder": "",
+          "aria_label": "CC Recipients",
+          "label": "",
+          "visible": true
+        },
+        {
+          "tag": "input",
+          "type": "text",
+          "id": "input-_r_v_",
+          "name": "",
+          "placeholder": "Subject",
+          "aria_label": "",
+          "label": "",
+          "visible": true
+        },
+        {
+          "tag": "input",
+          "type": "text",
+          "id": "",
+          "name": "",
+          "placeholder": "",
+          "aria_label": "Font Size",
+          "label": "",
+          "visible": true
+        }
+      ],
+      "buttons": [
+        "Skip to main content",
+        "Mail",
+        "Calendar",
+        "ToDo",
+        "Notes",
+        "Contacts",
+        "Bookmarks",
+        "New Mail",
+        "Send",
+        "Send Later",
+        "Save draft",
+        "Share Draft",
+        "Ranjit Kolte <pathlock.qa@zohomail.in>",
+        "To",
+        "Bcc",
+        "Cc",
+        "Verdana"
+      ],
+      "recorded_at": "2026-03-26T04:12:18Z"
+    },
+    "2026-03-26T04-11-37Z/step_27_fill": {
+      "url": "https://mail.zoho.in/zm/#compose",
+      "title": "New Mail - Zoho Mail (pathlock.qa@zohomail.in)",
+      "inputs": [
+        {
+          "tag": "input",
+          "type": "text",
+          "id": "",
+          "name": "",
+          "placeholder": "Search ( / )",
+          "aria_label": "Search ( / )",
+          "label": "",
+          "visible": true
+        },
+        {
+          "tag": "input",
+          "type": "text",
+          "id": "",
+          "name": "",
+          "placeholder": "",
+          "aria_label": "To Recipients",
+          "label": "",
+          "visible": true
+        },
+        {
+          "tag": "input",
+          "type": "text",
+          "id": "",
+          "name": "",
+          "placeholder": "",
+          "aria_label": "CC Recipients",
+          "label": "",
+          "visible": true
+        },
+        {
+          "tag": "input",
+          "type": "text",
+          "id": "input-_r_v_",
+          "name": "",
+          "placeholder": "Subject",
+          "aria_label": "",
+          "label": "",
+          "visible": true
+        },
+        {
+          "tag": "input",
+          "type": "text",
+          "id": "",
+          "name": "",
+          "placeholder": "",
+          "aria_label": "Font Size",
+          "label": "",
+          "visible": true
+        }
+      ],
+      "buttons": [
+        "Skip to main content",
+        "Mail",
+        "Calendar",
+        "ToDo",
+        "Notes",
+        "Contacts",
+        "Bookmarks",
+        "New Mail",
+        "Send",
+        "Send Later",
+        "Save draft",
+        "Share Draft",
+        "Ranjit Kolte <pathlock.qa@zohomail.in>",
+        "To",
+        "Bcc",
+        "Cc",
+        "Verdana"
+      ],
+      "recorded_at": "2026-03-26T04:12:21Z"
+    },
+    "2026-03-26T04-11-37Z/step_28_click": {
+      "url": "https://mail.zoho.in/zm/#mail/folder/inbox",
+      "title": "(2 unread) - Inbox - Zoho Mail (pathlock.qa@zohomail.in)",
+      "inputs": [
+        {
+          "tag": "input",
+          "type": "text",
+          "id": "",
+          "name": "",
+          "placeholder": "Search ( / )",
+          "aria_label": "Search ( / )",
+          "label": "",
+          "visible": true
+        }
+      ],
+      "buttons": [
+        "Skip to main content",
+        "Mail",
+        "Calendar",
+        "ToDo",
+        "Notes",
+        "Contacts",
+        "Bookmarks",
+        "New Mail",
+        "Inbox",
+        "2 Unread emails",
+        "Views",
+        "Attachment options",
+        "2"
+      ],
+      "recorded_at": "2026-03-26T04:12:23Z"
+    },
+    "2026-03-26T04-11-37Z/step_30_click": {
+      "url": "https://mail.zoho.in/zm/#mail/folder/inbox",
+      "title": "(2 unread) - Inbox - Zoho Mail (pathlock.qa@zohomail.in)",
+      "inputs": [
+        {
+          "tag": "input",
+          "type": "text",
+          "id": "",
+          "name": "",
+          "placeholder": "Search ( / )",
+          "aria_label": "Search ( / )",
+          "label": "",
+          "visible": true
+        }
+      ],
+      "buttons": [
+        "Skip to main content",
+        "Mail",
+        "Calendar",
+        "ToDo",
+        "Notes",
+        "Contacts",
+        "Bookmarks",
+        "New Mail",
+        "Inbox",
+        "2 Unread emails",
+        "Views",
+        "Attachment options",
+        "2",
+        "My Account",
+        "Enable Mail hosting",
+        "Pause notifications\nNever\n\nQuiet mode will automatically dea",
+        "Upgrade now!",
+        "Refresh",
+        "Manage Storage",
+        "Take a Tour",
+        "Blogs",
+        "Community",
+        "Help",
+        "Mail Admin",
+        "Streams",
+        "Todo",
+        "SIGN OUT"
+      ],
+      "recorded_at": "2026-03-26T04:12:26Z"
+    },
+    "2026-03-26T04-11-37Z/step_31_click": {
+      "url": "https://www.zoho.com/mail/",
+      "title": "Secure & Professional Business Email for your Organization | Zoho Mail",
+      "inputs": [],
+      "buttons": [
+        "Watch Video",
+        "SECURE EMAIL DATA",
+        "GET CUSTOM EMAILS",
+        "MANAGE PREFERENCES",
+        "RETAIN AND BACKUP",
+        "GO MOBILE",
+        "START COLLABORATING",
+        "Data Privacy and Security\n\nWhen you host your business email",
+        "Email and Calendar Migration\n\nSwitch from other providers to",
+        "Business email with CRM\n\nIntegrate with Zoho CRM to manage y",
+        "Expand all",
+        "1. What is a business email?",
+        "2. How is business email different from personal email?",
+        "3. How do you create a business email address in Zoho?",
+        "4. What is email hosting?",
+        "5. What are the advantages of using an email hosting service",
+        "Show more"
+      ],
+      "recorded_at": "2026-03-26T04:12:30Z"
+    },
+    "2026-03-26T04-14-49Z/step_13_navigate": {
+      "url": "https://accounts.zoho.in/signin?servicename=VirtualOffice&signupurl=https://www.zoho.com/mail/signup.html&serviceurl=https://mail.zoho.in",
+      "title": "Zoho Accounts",
+      "inputs": [
+        {
+          "tag": "input",
+          "type": "text",
+          "id": "login_id",
+          "name": "LOGIN_ID",
+          "placeholder": "Email address or mobile number",
+          "aria_label": "",
+          "label": "",
+          "visible": true
+        },
+        {
+          "tag": "input",
+          "type": "password",
+          "id": "password",
+          "name": "PASSWORD",
+          "placeholder": "Enter password",
+          "aria_label": "",
+          "label": "",
+          "visible": true
+        }
+      ],
+      "buttons": [
+        "Zoho Corporation Pvt. Ltd."
+      ],
+      "recorded_at": "2026-03-26T04:14:55Z"
+    },
+    "2026-03-26T04-14-49Z/step_16_fill": {
+      "url": "https://accounts.zoho.in/signin?servicename=VirtualOffice&signupurl=https://www.zoho.com/mail/signup.html&serviceurl=https://mail.zoho.in",
+      "title": "Zoho Accounts",
+      "inputs": [
+        {
+          "tag": "input",
+          "type": "text",
+          "id": "login_id",
+          "name": "LOGIN_ID",
+          "placeholder": "Email address or mobile number",
+          "aria_label": "",
+          "label": "",
+          "visible": true
+        },
+        {
+          "tag": "input",
+          "type": "password",
+          "id": "password",
+          "name": "PASSWORD",
+          "placeholder": "Enter password",
+          "aria_label": "",
+          "label": "",
+          "visible": true
+        }
+      ],
+      "buttons": [
+        "Next",
+        "Learn more",
+        "Zoho Corporation Pvt. Ltd."
+      ],
+      "recorded_at": "2026-03-26T04:14:58Z"
+    },
+    "2026-03-26T04-14-49Z/step_17_click": {
+      "url": "https://accounts.zoho.in/signin?servicename=VirtualOffice&signupurl=https://www.zoho.com/mail/signup.html&serviceurl=https://mail.zoho.in",
+      "title": "Zoho Accounts",
+      "inputs": [
+        {
+          "tag": "input",
+          "type": "text",
+          "id": "login_id",
+          "name": "LOGIN_ID",
+          "placeholder": "Email address or mobile number",
+          "aria_label": "",
+          "label": "",
+          "visible": true
+        },
+        {
+          "tag": "input",
+          "type": "password",
+          "id": "password",
+          "name": "PASSWORD",
+          "placeholder": "Enter password",
+          "aria_label": "",
+          "label": "",
+          "visible": true
+        }
+      ],
+      "buttons": [
+        "Sign in",
+        "Learn more",
+        "Zoho Corporation Pvt. Ltd."
+      ],
+      "recorded_at": "2026-03-26T04:15:00Z"
+    },
+    "2026-03-26T04-14-49Z/step_19_fill": {
+      "url": "https://accounts.zoho.in/signin?servicename=VirtualOffice&signupurl=https://www.zoho.com/mail/signup.html&serviceurl=https://mail.zoho.in",
+      "title": "Zoho Accounts",
+      "inputs": [
+        {
+          "tag": "input",
+          "type": "password",
+          "id": "password",
+          "name": "PASSWORD",
+          "placeholder": "Enter password",
+          "aria_label": "",
+          "label": "",
+          "visible": true
+        }
+      ],
+      "buttons": [
+        "Sign in",
+        "Learn more",
+        "Zoho Corporation Pvt. Ltd."
+      ],
+      "recorded_at": "2026-03-26T04:15:03Z"
+    },
+    "2026-03-26T04-14-49Z/step_20_click": {
+      "url": "https://mail.zoho.in/zm/",
+      "title": "Zoho Mail (pathlock.qa@zohomail.in)",
+      "inputs": [],
+      "buttons": [
+        "Mail",
+        "Calendar",
+        "ToDo",
+        "Notes",
+        "Contacts",
+        "Bookmarks",
+        "New Mail"
+      ],
+      "recorded_at": "2026-03-26T04:15:17Z"
+    },
+    "2026-03-26T04-14-49Z/step_22_wait": {
+      "url": "https://mail.zoho.in/zm/#mail/folder/inbox",
+      "title": "(2 unread) - Inbox - Zoho Mail (pathlock.qa@zohomail.in)",
+      "inputs": [],
+      "buttons": [
+        "Skip to main content",
+        "Mail",
+        "Calendar",
+        "ToDo",
+        "Notes",
+        "Contacts",
+        "Bookmarks",
+        "New Mail",
+        "Inbox",
+        "2 Unread emails"
+      ],
+      "recorded_at": "2026-03-26T04:15:23Z"
+    },
+    "2026-03-26T04-14-49Z/step_24_click": {
+      "url": "https://mail.zoho.in/zm/#mail/folder/inbox",
+      "title": "(2 unread) - Inbox - Zoho Mail (pathlock.qa@zohomail.in)",
+      "inputs": [
+        {
+          "tag": "input",
+          "type": "text",
+          "id": "",
+          "name": "",
+          "placeholder": "Search ( / )",
+          "aria_label": "Search ( / )",
+          "label": "",
+          "visible": true
+        }
+      ],
+      "buttons": [
+        "Skip to main content",
+        "Mail",
+        "Calendar",
+        "ToDo",
+        "Notes",
+        "Contacts",
+        "Bookmarks",
+        "New Mail",
+        "Inbox",
+        "2 Unread emails",
+        "Views",
+        "Attachment options",
+        "2"
+      ],
+      "recorded_at": "2026-03-26T04:15:26Z"
+    },
+    "2026-03-26T04-14-49Z/step_25_fill": {
+      "url": "https://mail.zoho.in/zm/#compose",
+      "title": "New Mail - Zoho Mail (pathlock.qa@zohomail.in)",
+      "inputs": [
+        {
+          "tag": "input",
+          "type": "text",
+          "id": "",
+          "name": "",
+          "placeholder": "Search ( / )",
+          "aria_label": "Search ( / )",
+          "label": "",
+          "visible": true
+        },
+        {
+          "tag": "input",
+          "type": "text",
+          "id": "",
+          "name": "",
+          "placeholder": "",
+          "aria_label": "To Recipients",
+          "label": "",
+          "visible": true
+        },
+        {
+          "tag": "input",
+          "type": "text",
+          "id": "",
+          "name": "",
+          "placeholder": "",
+          "aria_label": "CC Recipients",
+          "label": "",
+          "visible": true
+        },
+        {
+          "tag": "input",
+          "type": "text",
+          "id": "input-_r_v_",
+          "name": "",
+          "placeholder": "Subject",
+          "aria_label": "",
+          "label": "",
+          "visible": true
+        },
+        {
+          "tag": "input",
+          "type": "text",
+          "id": "",
+          "name": "",
+          "placeholder": "",
+          "aria_label": "Font Size",
+          "label": "",
+          "visible": true
+        }
+      ],
+      "buttons": [
+        "Skip to main content",
+        "Mail",
+        "Calendar",
+        "ToDo",
+        "Notes",
+        "Contacts",
+        "Bookmarks",
+        "New Mail",
+        "Send",
+        "Send Later",
+        "Save draft",
+        "Share Draft",
+        "Ranjit Kolte <pathlock.qa@zohomail.in>",
+        "To",
+        "Bcc",
+        "Cc",
+        "Verdana"
+      ],
+      "recorded_at": "2026-03-26T04:15:36Z"
+    },
+    "2026-03-26T04-14-49Z/step_26_fill": {
+      "url": "https://mail.zoho.in/zm/#compose",
+      "title": "New Mail - Zoho Mail (pathlock.qa@zohomail.in)",
+      "inputs": [
+        {
+          "tag": "input",
+          "type": "text",
+          "id": "",
+          "name": "",
+          "placeholder": "Search ( / )",
+          "aria_label": "Search ( / )",
+          "label": "",
+          "visible": true
+        },
+        {
+          "tag": "input",
+          "type": "text",
+          "id": "",
+          "name": "",
+          "placeholder": "",
+          "aria_label": "To Recipients",
+          "label": "",
+          "visible": true
+        },
+        {
+          "tag": "input",
+          "type": "text",
+          "id": "",
+          "name": "",
+          "placeholder": "",
+          "aria_label": "CC Recipients",
+          "label": "",
+          "visible": true
+        },
+        {
+          "tag": "input",
+          "type": "text",
+          "id": "input-_r_v_",
+          "name": "",
+          "placeholder": "Subject",
+          "aria_label": "",
+          "label": "",
+          "visible": true
+        },
+        {
+          "tag": "input",
+          "type": "text",
+          "id": "",
+          "name": "",
+          "placeholder": "",
+          "aria_label": "Font Size",
+          "label": "",
+          "visible": true
+        }
+      ],
+      "buttons": [
+        "Skip to main content",
+        "Mail",
+        "Calendar",
+        "ToDo",
+        "Notes",
+        "Contacts",
+        "Bookmarks",
+        "New Mail",
+        "Send",
+        "Send Later",
+        "Save draft",
+        "Share Draft",
+        "Ranjit Kolte <pathlock.qa@zohomail.in>",
+        "To",
+        "Bcc",
+        "Cc",
+        "Verdana"
+      ],
+      "recorded_at": "2026-03-26T04:15:39Z"
+    },
+    "2026-03-26T04-14-49Z/step_27_fill": {
+      "url": "https://mail.zoho.in/zm/#compose",
+      "title": "New Mail - Zoho Mail (pathlock.qa@zohomail.in)",
+      "inputs": [
+        {
+          "tag": "input",
+          "type": "text",
+          "id": "",
+          "name": "",
+          "placeholder": "Search ( / )",
+          "aria_label": "Search ( / )",
+          "label": "",
+          "visible": true
+        },
+        {
+          "tag": "input",
+          "type": "text",
+          "id": "",
+          "name": "",
+          "placeholder": "",
+          "aria_label": "To Recipients",
+          "label": "",
+          "visible": true
+        },
+        {
+          "tag": "input",
+          "type": "text",
+          "id": "",
+          "name": "",
+          "placeholder": "",
+          "aria_label": "CC Recipients",
+          "label": "",
+          "visible": true
+        },
+        {
+          "tag": "input",
+          "type": "text",
+          "id": "input-_r_v_",
+          "name": "",
+          "placeholder": "Subject",
+          "aria_label": "",
+          "label": "",
+          "visible": true
+        },
+        {
+          "tag": "input",
+          "type": "text",
+          "id": "",
+          "name": "",
+          "placeholder": "",
+          "aria_label": "Font Size",
+          "label": "",
+          "visible": true
+        }
+      ],
+      "buttons": [
+        "Skip to main content",
+        "Mail",
+        "Calendar",
+        "ToDo",
+        "Notes",
+        "Contacts",
+        "Bookmarks",
+        "New Mail",
+        "Send",
+        "Send Later",
+        "Save draft",
+        "Share Draft",
+        "Ranjit Kolte <pathlock.qa@zohomail.in>",
+        "To",
+        "Bcc",
+        "Cc",
+        "Verdana"
+      ],
+      "recorded_at": "2026-03-26T04:15:42Z"
+    },
+    "2026-03-26T04-14-49Z/step_28_click": {
+      "url": "https://mail.zoho.in/zm/#compose",
+      "title": "New Mail - Zoho Mail (pathlock.qa@zohomail.in)",
+      "inputs": [
+        {
+          "tag": "input",
+          "type": "text",
+          "id": "",
+          "name": "",
+          "placeholder": "Search ( / )",
+          "aria_label": "Search ( / )",
+          "label": "",
+          "visible": true
+        },
+        {
+          "tag": "input",
+          "type": "text",
+          "id": "",
+          "name": "",
+          "placeholder": "",
+          "aria_label": "To Recipients",
+          "label": "",
+          "visible": true
+        },
+        {
+          "tag": "input",
+          "type": "text",
+          "id": "",
+          "name": "",
+          "placeholder": "",
+          "aria_label": "CC Recipients",
+          "label": "",
+          "visible": true
+        },
+        {
+          "tag": "input",
+          "type": "text",
+          "id": "input-_r_v_",
+          "name": "",
+          "placeholder": "Subject",
+          "aria_label": "",
+          "label": "",
+          "visible": true
+        },
+        {
+          "tag": "input",
+          "type": "text",
+          "id": "",
+          "name": "",
+          "placeholder": "",
+          "aria_label": "Font Size",
+          "label": "",
+          "visible": true
+        }
+      ],
+      "buttons": [
+        "Skip to main content",
+        "Mail",
+        "Calendar",
+        "ToDo",
+        "Notes",
+        "Contacts",
+        "Bookmarks",
+        "New Mail",
+        "Send",
+        "Send Later",
+        "Save draft",
+        "Share Draft",
+        "Ranjit Kolte <pathlock.qa@zohomail.in>",
+        "To",
+        "Bcc",
+        "Cc",
+        "Verdana"
+      ],
+      "recorded_at": "2026-03-26T04:15:45Z"
+    },
+    "2026-03-26T04-14-49Z/step_30_click": {
+      "url": "https://mail.zoho.in/zm/#mail/folder/inbox",
+      "title": "(2 unread) - Inbox - Zoho Mail (pathlock.qa@zohomail.in)",
+      "inputs": [
+        {
+          "tag": "input",
+          "type": "text",
+          "id": "",
+          "name": "",
+          "placeholder": "Search ( / )",
+          "aria_label": "Search ( / )",
+          "label": "",
+          "visible": true
+        }
+      ],
+      "buttons": [
+        "Skip to main content",
+        "Mail",
+        "Calendar",
+        "ToDo",
+        "Notes",
+        "Contacts",
+        "Bookmarks",
+        "New Mail",
+        "Inbox",
+        "2 Unread emails",
+        "Views",
+        "Attachment options",
+        "2",
+        "My Account",
+        "Enable Mail hosting",
+        "Pause notifications\nNever\n\nQuiet mode will automatically dea",
+        "Upgrade now!",
+        "Refresh",
+        "Manage Storage",
+        "Take a Tour",
+        "Blogs",
+        "Community",
+        "Help",
+        "Mail Admin",
+        "Streams",
+        "Todo",
+        "SIGN OUT"
+      ],
+      "recorded_at": "2026-03-26T04:15:47Z"
+    },
+    "2026-03-26T04-14-49Z/step_31_click": {
+      "url": "https://www.zoho.com/mail/",
+      "title": "Secure & Professional Business Email for your Organization | Zoho Mail",
+      "inputs": [],
+      "buttons": [
+        "Watch Video",
+        "SECURE EMAIL DATA",
+        "GET CUSTOM EMAILS",
+        "MANAGE PREFERENCES",
+        "RETAIN AND BACKUP",
+        "GO MOBILE",
+        "START COLLABORATING",
+        "Data Privacy and Security\n\nWhen you host your business email",
+        "Email and Calendar Migration\n\nSwitch from other providers to",
+        "Business email with CRM\n\nIntegrate with Zoho CRM to manage y",
+        "Expand all",
+        "1. What is a business email?",
+        "2. How is business email different from personal email?",
+        "3. How do you create a business email address in Zoho?",
+        "4. What is email hosting?",
+        "5. What are the advantages of using an email hosting service",
+        "Show more"
+      ],
+      "recorded_at": "2026-03-26T04:15:53Z"
+    }
+  }
+}
